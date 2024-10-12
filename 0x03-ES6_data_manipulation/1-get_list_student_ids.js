@@ -3,7 +3,8 @@
  *
  * @param {Array<Object>} studentList - The list of student objects.
  * Each student object should contain an `id` property.
- * @returns {Array<Number>} An array of student IDs. If the input is not an array, returns an empty array.
+ * @returns {Array<Number>} An array of student IDs. If the input is not an
+ *  array, returns an empty array.
  */
 const getListStudentIds = (studentList) => {
   if (!Array.isArray(studentList)) {
